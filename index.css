@@ -18,3 +18,8 @@ fill:var(--primary);
 background-color:var(--primary);
   border-color:var(--primary);
 }
+
+.calendar>.days-grid>.day:hover{
+color:var(--primary);
+  border-color:var(--primary);
+}
