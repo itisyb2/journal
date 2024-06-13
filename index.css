@@ -1,0 +1,14 @@
+.apply-button unit{
+background-color:var(--primary)
+    border-color:var(--primary);
+  color:black;
+}
+
+.time-plugin-container input[type=time], .time-plugin-container select {
+    padding: .5rem;
+}
+
+.calendar>.days-grid>.day.selected{
+background-color:var(--primary);
+  border-color:var(--primary);
+}
