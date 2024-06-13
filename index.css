@@ -1,9 +1,14 @@
-.apply-button unit{
+.apply-button unit,.container>footer .footer-buttons>button.apply-button{
 background-color:var(--primary)
     border-color:var(--primary);
   color:black;
 }
-
+.container > footer .footer-buttons > button.apply-button:disabled {
+background-color:var(--primary)
+    border-color:var(--primary);
+  color:black;
+    opacity:.75;
+}
 .time-plugin-container input[type=time], .time-plugin-container select {
     padding: .5rem;
 }
@@ -17,6 +22,7 @@ fill:var(--primary);
 .calendar>.days-grid>.day.selected{
 background-color:var(--primary);
   border-color:var(--primary);
+    color:black;
 }
 
 .calendar>.days-grid>.day:hover{
