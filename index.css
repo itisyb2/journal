@@ -8,6 +8,12 @@ background-color:var(--primary)
     padding: .5rem;
 }
 
+.calendar>.header button:hover>img, .calendar>.header button:hover>svg{
+color:var(--primary);
+fill:var(--primary); 
+}
+
+
 .calendar>.days-grid>.day.selected{
 background-color:var(--primary);
   border-color:var(--primary);
